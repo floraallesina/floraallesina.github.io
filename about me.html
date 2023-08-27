@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Flora Allesina - About Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
+	<link rel="stylesheet" href="stylesheet/header footer.css">
+	<link href="bootstrap\bootstrap.css" rel="stylesheet">
+	<script src="bootstrap\bootstrap.bundle.js"></script>
+</head>
+
+<body>
+<!-- PULSANTE TOP -->
+<div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"> TOP </button>
+</div>
+
+<!-- HEADER -->
+ <div class="container-fluid">
+    <div class="row">
+		<div class="col-6 p-2">
+			<div class="stella"> <!-- usare div non button --> 
+				<a href="index.html">
+				<img style="width:calc(3rem + 2vw)" src="images/stella gialla.svg" alt="stella"> 
+				</a>
+			</div>
+		</div>
+		<div class="col-6 p-2" style="z-index:9999">
+		<div class="menu-container">
+		<div class="dropdown">
+			<button class="dropbtn">MENU</button>
+			<div class="dropdown-content">
+			<a href="about me.html">about me</a>
+			<a href="progetti.html">progetti</a>
+			<a href="contatti.html">contatti</a>
+			<a href="biscotto della fortuna.html">cliccami</a>			
+			</div>
+		</div>
+	</div>
+		</div>
+	</div>  
+  </div>
+ 
+ <!-- CONTENUTI -->
+<div class="container-fluid">
+  <div class="row justify-content-sm-left p-3">
+ <!----------------------------------------------PLUGIN------------------------------------------------------------------>
+	 <div class="col-md-4 g-0 mx-2 swinger-container">
+						<img src="images/3.png" />
+						<img src="images/2.png" />
+						<img src="images/1.png" />
+	 </div> 
+	 <div class="col-md-7 g-0 mx-2">
+      <h1>ABOUT ME</h1>
+		<p> Ciao!! Sono Flora, una studentessa al terzo anno del CdL triennale in Design e Comunicazione al Politecnico di Torino. 
+			<br><br> Ho 21 anni, ma disegno da quando ne ho 2 e ho imparato a impugnare la matita, e quindi oltre al 
+			graphic design e branding la mia più grande passione è l’illustrazione, con un pizzico di ironia. <br><br>
+			Mi ritengo una persona creativa, che cerca sempre nuove fonti d’ispirazione frequentando mostre, musei, 
+			leggendo (anche i libri illustrati per bambini valgono?) e girovagando fra progetti Behance e pagine Instagram.
+		</p>
+	</div>
+  </div>
+</div>
+	
+<div class="container-fluid">
+  <div class="row  justify-content-sm-left px-3">
+    <div class="col-md-4 g-0 mx-2">
+<!-------------------------------------------------------------- IFRAME GOOGLE MAPS ------------------------------------------------------------------->
+		<iframe class="map-iframe"
+			referrerpolicy="no-referrer-when-downgrade"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCYAMOVtuqJDQ4_xcTaHvsX03lG-y1mbQ8&q=Torino+Italia"
+			allowfullscreen>
+		</iframe>
+	</div>
+	<div class="col-md-7 g-0 mx-2">
+		<p class="presentation"> Oltre al mondo dell’arte e del design, i miei interessi sono il cinema (da cui traggo ispirazione, 
+			con registi come Wes Anderson che ritengo artisti a 360°), e in generale temi sociali come la sostenibilità ambientale 
+			e l’alimentazione, e la salute mentale. <br><br> Cerco di trattare questi temi  in modo leggero, seppur a volte critico, 
+			tramite fumetti e illustrazioni che pubblico sulla mia pagina 
+		<a class="presentation" href="https://www.instagram.com/disegninidellaflo/" target=_blank>Instagram.</a>
+		<br>
+		</p>
+	</div>
+  </div>
+</div>
+
+<br><br><br><br>
+
+<!-- FOOTER -->
+<a href="contatti.html" class="slide" target=_self>
+	<footer class="fixed-bottom">
+	CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI
+			CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI CONTATTI 
+	</footer>
+</a>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+</script>
+<script src="plugin\swinger.js"></script>
+<script> $(function(){
+
+  $(".swinger-container").swinger();
+
+});</script>
+
+<script src="plugin\pulsante top.js"></script>
+
+</body>
+</html>
