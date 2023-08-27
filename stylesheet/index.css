@@ -1,0 +1,37 @@
+
+div.progetto1 {
+	transform: rotate(-10deg);
+	transition: transform 0.3s ease;
+}
+
+div.progetto1:hover {
+	transform: rotate(0deg);
+}
+
+div.progetto2 {
+	transform: rotate(15deg);
+	transition: transform 0.3s ease;
+}
+
+div.progetto2:hover {
+	transform: rotate(0deg);
+}
+
+div.progetto3 {
+	transform: rotate(-10deg);
+	transition: transform 0.3s ease;
+}
+
+div.progetto3:hover {
+	transform: rotate(0deg);
+}
+
+div.progetto4 {
+	transform: rotate(-15deg);
+	transition: transform 0.3s ease;
+}
+
+div.progetto4:hover {
+	transform: rotate(0deg);
+}
+	

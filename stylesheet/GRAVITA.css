@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  /* margin: 5; */
+}
+
+.particle-container {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index:999; /*con 0 va dietro il resto dei contenuti*/
+}
+
+.particle {
+  position: fixed;
+  /* width: 5rem; */
+  /* height: 5rem; */
+  border-radius: 50%;
+  border: 2px solid black;
+}

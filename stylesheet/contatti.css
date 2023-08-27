@@ -1,0 +1,29 @@
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.contact-list li a {
+    text-decoration: none;
+    color: white;
+    font-size:calc(2rem + 0.5vw);
+}
+
+.contact-list li a:hover {
+    color: #DDA0DD;
+}
+
+h1:hover {
+    color: #DDA0DD;
+	transform: translateX(20%); /* Slide to the right */
+
+}
+

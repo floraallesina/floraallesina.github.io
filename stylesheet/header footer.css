@@ -1,0 +1,150 @@
+
+/********************************************************** HEADER ***********************************************************/
+body {
+  overflow-x: hidden; 
+  max-width:100%;
+}
+
+.menu-container {
+  position: relative;
+  float: right;
+  padding-top: calc(0.2rem + 0.5vw);
+  padding-right: calc(0.2rem + 2vw);
+}
+
+.dropdown {
+  font-weight: bold;
+  position: relative;
+  display: block;
+}
+
+.dropbtn {
+  background-color: black;
+  font-size: calc(1rem + 2vw);
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: .1rem;
+  color: #FFF100;
+  min-width: calc(5rem + 5vw);
+  /* padding: 1rem; */
+  border: none;
+  /* cursor: pointer; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DDA0DD;
+  min-width: calc(5rem + 5vw);
+  z-index: 1;
+  text-align: center;
+
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: #DDA0DD;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.stella {
+			animation: bounce 0.5s;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(2,2,2,2);
+            animation-iteration-count: infinite;
+        }
+          
+@keyframes bounce {
+from {
+	transform: translate3d(2%, 0, 0);
+	 }
+to {
+	transform: translate3d(-2%, 0, 0);
+	 }
+	}
+          
+stella {
+	-webkit-animation-name: bounce;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: cubic-bezier(
+	.5, 0.05, 1, .5);
+	-webkit-animation-iteration-count: infinite;
+}
+	@-webkit-keyframes bounce {
+	from {
+	-webkit-transform: translate3d(2%, 0, 0);
+	transform: translate3d(2%, 0, 0);
+		}
+to {
+	-webkit-transform: translate3d(-2%, 0, 0);
+	transform: translate3d(-2%, 0, 0);
+	}
+}
+
+
+/********************************************************** FOOTER ***********************************************************/
+
+a.slide {
+	color: white;
+	text-decoration: none;
+	background-color: #DDA0DD; 
+    height: 4rem;
+	margin-left: -10rem;
+	width: 300rem;
+	position: fixed;
+	bottom: 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-style: italic;
+	word-spacing:  2rem;;
+	z-index: 99999 !important;
+		animation: slide 10s infinite;
+		animation-timing-function: linear;
+}
+
+a.slide:link {
+}
+a.slide:visited {
+}
+a.slide:hover {
+	color: #DDA0DD;
+	background-color: white;
+	text-decoration: none;
+}
+a.slide:active {
+	color: #DDA0DD;
+}
+
+@keyframes slide {
+	0% {transform: translateX(0px);}
+
+	25% {transform: translateX(-200px);}
+
+	50% {transform: translateX(-400px);}
+	
+	75% {transform: translateX(-600px);}
+
+	100% {transform: translateX(-800px);}
+}		
+
+@media screen and (max-width: 667px) {
+    body {
+		 max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
